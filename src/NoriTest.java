@@ -12,31 +12,6 @@ public class NoriTest {
         bg = bg.add(new BigInteger("100"));
 
 
-
-//        bg.compareTo()
-
-
-//        System.out.println(bg.toString());
-//        extracted1();
-
-//        extracted();
-
-//        futureUasage();
-
-//        futureTaskUsage();
-
-//        lockBasicMethod();
-
-//        readWriteLockForWrite();
-
-//        readWriteLockForRead();
-
-//        countDownLatchWait();
-
-//        cyclicBarrierWait();
-
-//        copyOnWriteList();
-
     }
 
     private static void extracted1() {
