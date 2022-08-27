@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-08-27T06:31:25.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.3" etag="M4rCNMq6psQoLwTS2gcz" type="github"><diagram id="Z6G67os6euMHeO--9gWP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-27T12:39:32.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="UDfuCwW-oMTkhPqKOHhY" version="20.2.3" type="github">
+  <diagram id="Z6G67os6euMHeO--9gWP" name="第 1 页">
+    <mxGraphModel dx="1662" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NQjkubGqf__QPTtbe3JN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NQjkubGqf__QPTtbe3JN-2" target="NQjkubGqf__QPTtbe3JN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-2" value="Client" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NQjkubGqf__QPTtbe3JN-6" target="NQjkubGqf__QPTtbe3JN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-6" value="玩家转图&lt;br&gt;或进入某一张地图" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NQjkubGqf__QPTtbe3JN-8" target="NQjkubGqf__QPTtbe3JN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-8" value="&lt;br&gt;&lt;pre style=&quot;font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(35, 46, 70);&quot;&gt;C2M_TransferMapHandler&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(35, 46, 70);&quot;&gt;调用转图协议&lt;/span&gt;&lt;/pre&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576.87" y="70" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NQjkubGqf__QPTtbe3JN-12" target="NQjkubGqf__QPTtbe3JN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-12" value="发送&lt;span style=&quot;background-color: rgb(35, 46, 70); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;M2C_StartSceneChange&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;通知客户端开始切场景&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="580" y="180" width="173.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NQjkubGqf__QPTtbe3JN-14" target="NQjkubGqf__QPTtbe3JN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-14" value="&lt;pre style=&quot;color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(35, 46, 70);&quot;&gt;传送被标记为ITransfer的对象&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="571.5699999999999" y="270" width="190.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NQjkubGqf__QPTtbe3JN-18" target="NQjkubGqf__QPTtbe3JN-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-18" value="发送&lt;span style=&quot;background-color: rgb(35, 46, 70); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;M2M_UnitTransferRequest&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;通知另一个需要进入的map，创建该client实例，并等待创建完成&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="360" width="233.74" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-20" value="发送&lt;span style=&quot;background-color: rgb(35, 46, 70); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;M2C_CreateMyUnitPush&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;通知客户端创建client实例完成&lt;/span&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="581.56" y="460" width="170.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NQjkubGqf__QPTtbe3JN-26" target="NQjkubGqf__QPTtbe3JN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-26" value="Server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="265" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NQjkubGqf__QPTtbe3JN-30" target="NQjkubGqf__QPTtbe3JN-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NQjkubGqf__QPTtbe3JN-30" target="NQjkubGqf__QPTtbe3JN-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-30" value="Robot" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="730" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-31" value="&lt;pre style=&quot;background-color:#262626;color:#d0d0d0;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;background-color:#232e46;&quot;&gt;C2R_Login&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NQjkubGqf__QPTtbe3JN-33" value="&lt;pre style=&quot;background-color:#262626;color:#d0d0d0;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color:#232e46;&quot;&gt;C2G_LoginGate&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
